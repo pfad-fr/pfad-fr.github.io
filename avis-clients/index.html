@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Avis Clients - Extension WordPress </title>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+  body{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f1efeb;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  h1, h2, h3{
+    text-align: center;
+  }
+
+  .extension-headline{
+    border-bottom: 7px solid #7783ad;
+    background-color: rgba(119,131,173,.7);
+    line-height: 0;
+    margin-bottom: 1em;
+    position: relative;
+  }
+  .extension-headline:before{
+    content: "";
+    display: block;
+    background-color: #f1efeb;
+    height: 11px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .extension-headline .type,
+  .extension-headline .title{
+    display: inline-block;
+    margin: 7px 0 -5px .3em;
+    color: #fff;
+    line-height: 1em;
+  }
+  .extension-headline .type{
+    font-size: 1.6em;
+    opacity: .8;
+  }
+  .extension-headline .title{
+    font-size: 3em;
+    font-weight: normal;
+  }
+  h1 span{
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .review-card{
+    text-align: center;
+  }
+  .review-card div{
+    position: relative;
+    height: 202px;
+    overflow-y: hidden;
+  }
+  .review-card div img{
+    box-shadow: 0 10px 20px rgba(0,0,0,.5);
+  }
+  .review-card div:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 75%;
+    bottom: 0;
+    background-image: linear-gradient(transparent, #f1efeb);
+  }
+
+  h2{
+    color: #374062;
+    font-weight: normal;
+    font-size: 2em;
+  }
+  .feature-block h2:before, 
+  .feature-block h2:after{
+    content: " ~ ";
+    font-size: 1.7em;
+    line-height: 0.8em;
+    vertical-align: top;
+  }
+  .feature-block{
+    text-align: center;
+  }
+  h3[data-icon]{
+    background: none no-repeat top center;
+    padding-top: 75px;
+    background-size: 75px;
+  }
+  h3{
+    color: #495583;
+  }
+  .feature-block .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .contact-card,
+  .feature-card{
+    flex:0 1 auto;
+    background-color: #fff;
+    padding: 0 20px;
+    margin: 10px 5px;
+    box-shadow: 0 3px 4px rgba(0,0,0,.2);
+  }
+  .feature-card p {
+    max-width: 250px;
+  }
+  .contact-card{
+    max-width: 420px;
+    margin: 10px 5px;
+  }
+
+  .contact-card > h3 > img{
+    height: 110px;
+    border-radius: 50%;
+  }
+
+  @media (min-width: 480px){
+    .contact-card{
+      margin: 10px auto;
+    
+    }
+  }
+
+  a{
+    color: #374062;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+
+  footer{
+    text-align: center;
+  }
+  footer:not(:hover){
+    opacity: .7;
+  }
+  .credits-box{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .credits-box .item{
+    display: inline-block;
+    font-size: .9em;
+  }
+  .credits-box .item:before{
+    content: "• ";
+  }
+  .credits-box .item:last-child:after{
+    content: " •";
+  }
+  </style>
+
+<body>
+<div>
+  <strong>Offrez à vos clients le site web qu'ils méritent</strong>
+</div>
+<header class="extension-headline">
+  <span class="type">Extension WordPress pour vos</span><h1 class="title">Avis clients</h1>
+  </header>
+<div class="review-card"><div><img src="./img/avis.png"></div><em>Exemple de rendu</em></div>
+<div class="feature-block">
+  <h2>Idéal pour votre site web</h2>
+  <div class="cards">
+    <div class="feature-card">
+      <h3 data-icon="custom">Personnalisable</h3>
+      <p>
+        Choisissez l'emplacement et le nombre d'avis à afficher au sein de chacune de vos pages.
+      </p>
+    </div>
+    <div class="feature-card">
+      <h3 data-icon="translation">Polyglotte</h3>
+      <p>
+        Les commentaires s'affichent dans la langue de vos visiteurs si votre site est multilingue.
+      </p>
+    </div>
+    <div class="feature-card">
+      <h3 data-icon="stars">Ergonomique</h3>
+      <p>
+        Le contenu s'adapte automatiquement à la charte graphique de votre site.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="feature-block">
+  <h2>Bénéfique pour votre hôtel</h2>
+  <div class="cards">
+    <div class="feature-card">
+      <h3 data-icon="users">Visiteurs convaincus</h3>
+      <p>
+        Vos futurs clients ne quittent plus votre site pour lire de vrais avis.
+      </p>
+    </div>
+    <div class="feature-card">
+      <h3 data-icon="glass">Référencement amélioré</h3>
+      <p>
+        Le contenu natif est récompensé par les moteurs de recherche.
+      </p>
+    </div>
+    <div class="feature-card">
+      <h3 data-icon="maintenance">Aucune maintenance</h3>
+      <p>
+        Les nouveaux avis sont automatiquement affichés.
+      </p>
+    </div>
+  </div>
+</div>
+
+<h2>Contact &amp; Devis</h2>
+<div class="contact-card">
+  <h3>
+    <img src="./img/profile.jpg"><br>
+    Olivier Charvin
+  </h3>
+  <p>
+    E-mail : <a href="mailto:oliverpool@hotmail.fr">oliverpool@hotmail.fr</a><br/>
+    Adresse : <a target="_blank" href="http://www.openstreetmap.org/?mlat=47.7110&amp;mlon=-3.3815#map=8/47.813/-3.856">
+      29 avenue Jules Le Guen, 56260 Larmor-Plage
+    </a><br>
+    Siret : <a target="_blank" href="https://www.infogreffe.fr/societes/entreprise-societe/801404195">
+      80140419500019
+    </a><br>
+    <br>
+  </p>
+</div>
+
+
+
+<footer>
+  <style type="text/css">
+  h3[data-icon="stars"]{
+    background-image: url(img/stars.svg);
+  }
+  h3[data-icon="translation"]{
+    background-image: url(img/translation.svg);
+  }
+  h3[data-icon="custom"]{
+    background-image: url(img/custom.svg);
+  }
+
+  h3[data-icon="maintenance"]{
+    background-image: url(img/maintenance.svg);
+  }
+  h3[data-icon="glass"]{
+    background-image: url(img/glass.svg);
+  }
+  h3[data-icon="users"]{
+    background-image: url(img/users.svg);
+  }
+
+  label:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  input.toggler{
+    display: none;
+  }
+  input.toggler:not(:checked) + ul{
+    visibility: hidden;
+  }
+  </style>
+
+  <label for="credit_toggler">Icons from the Noun Project</label>
+  <input type="checkbox" class="toggler" id="credit_toggler" />
+  <ul class="credits-box">
+    <li class="item">stars by Sergey Demushkin</li>
+    <li class="item">Translation by Ilsur Aptukov</li>
+    <li class="item">Settings by 23 icons</li>
+
+    <li class="item">maintenance by Boudewijn Mijnlieff</li>
+    <li class="item">Magnifying Glass by Alex Podolsky</li>
+    <li class="item">users by Lamark Martins</li>
+  </ul>
+</footer> 
+</body>
+</html>
