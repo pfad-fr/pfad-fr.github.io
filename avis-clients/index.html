@@ -9,13 +9,15 @@
 
   <title>Avis Clients - Extension WordPress </title>
 
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <style type="text/css">
   body{
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #f1efeb;
     max-width: 1080px;
     margin: 0 auto;
+  }
+  .wf-active body{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
   h1, h2, h3{
@@ -288,6 +290,13 @@
     <li class="item">Magnifying Glass by Alex Podolsky</li>
     <li class="item">users by Lamark Martins</li>
   </ul>
-</footer> 
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+<script>
+ WebFont.load({
+    google: {families: ['Open+Sans:400,700']},
+    timeout: 20000
+  });
+</script>
 </body>
 </html>
