@@ -22,23 +22,22 @@
     text-align: center;
   }
 
-  .extension-headline{
-    border-bottom: 7px solid #7783ad;
-    background-color: rgba(119,131,173,.7);
-    line-height: 0;
-    margin-bottom: 1em;
+  .main-headline{
+    background: url(./img/laptop-outside.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 300px;
     position: relative;
+    margin-bottom: 1em;
   }
-  .extension-headline:before{
-    content: "";
-    display: block;
-    background-color: #f1efeb;
-    height: 11px;
-    width: 100%;
+
+  .extension-headline{
+    border-bottom: 7px solid #62BC79;
+    background-color: rgba(50,161,108,.7);
+    line-height: 0;
     position: absolute;
+    bottom: 0;
     left: 0;
     right: 0;
-    top: 0;
   }
 
   .extension-headline .type,
@@ -82,7 +81,7 @@
   }
 
   h2{
-    color: #374062;
+    color: #37624D;
     font-weight: normal;
     font-size: 2em;
   }
@@ -102,7 +101,7 @@
     background-size: 75px;
   }
   h3{
-    color: #495583;
+    color: #498367;
   }
   .feature-block .cards{
     display: flex;
@@ -138,7 +137,7 @@
   }
 
   a{
-    color: #374062;
+    color: #37624D;
     text-decoration: none;
   }
   a:hover{
@@ -169,12 +168,12 @@
   </style>
 
 <body>
-<div>
+<header class="main-headline">
   <strong>Offrez à vos clients le site web qu'ils méritent</strong>
-</div>
-<header class="extension-headline">
-  <span class="type">Extension WordPress pour vos</span><h1 class="title">Avis clients</h1>
+  <header class="extension-headline">
+    <span class="type">Extension WordPress pour vos</span><h1 class="title">Avis clients</h1>
   </header>
+</header>
 <div class="review-card"><div><img src="./img/avis.png"></div><em>Exemple de rendu</em></div>
 <div class="feature-block">
   <h2>Idéal pour votre site web</h2>
